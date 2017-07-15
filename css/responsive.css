@@ -1,0 +1,611 @@
+/* MEDIA QUERIES*/
+
+
+/* MEDIA QUERIES FOR 320PX */
+@media(max-width: 320px){
+
+  /*index*/
+
+  #home-about h1,
+  #home-about p {
+    margin-left: -25px;
+  }
+
+  #slideshow .slide__text-heading {
+    margin-top: 15%;
+  }
+
+  #solutions-main {
+    margin-left: -55px;
+  }
+
+  #solutions-main .item-info {
+    max-width: 250px !important;
+  }
+
+  #partners .head {
+    font-size: 20px;
+  }
+
+  /*about-us*/
+   
+  #about-us-mission-and-vision  p {
+    font-size: 16px; 
+  } 
+ 
+  #about-us-mission-and-vision .mission-detail h1{
+    font-size: 32px;
+    margin-left: 45px !important;
+  }
+   
+  #about-us-mission-and-vision .vision-detail h1{
+    font-size: 32px;
+    margin-left: 50px !important;
+  }
+
+  #about-us-mission-and-vision .vision-detail p{
+    margin-left: -50px;
+  }
+   
+  #about-us-mission-and-vision .values-detail h1{
+    font-size: 32px;
+    margin-left: 10px !important;
+  }
+   
+  #about-us-mission-and-vision .mission img {
+    max-height: 125px !important;
+  }
+  
+  #about-us-mission-and-vision .vision img {
+    max-height: 90px !important;
+    padding-left: 17px !important;
+  }
+  
+  #about-us-mission-and-vision .values img {
+    max-height: 120px !important;
+    margin-left: -60px !important;
+    margin: 0 auto !important;
+  }
+
+  #guiding-principle h1 {
+    margin-right: 18px;
+  }
+
+ 
+  
+  #community .container h1 {
+    font-size: 40px !important;
+  }
+  
+  #community .container h4 {
+    font-size: 20px !important;
+  }
+
+  /*projects*/
+ 
+ #projects-content img {
+  max-width: 260px;
+  margin-left: -5px;
+ }
+
+ #partnersclients h3 {
+  font-size: 30px;
+ }
+
+ #partnersclients .partners {
+  margin-left: -30px;
+ }
+
+ #partnersclients .partners img {
+  max-width: 100px;
+ }
+
+ #partnersclients .partners p {
+  font-size: 12px;
+ }
+
+ #partnersclients .clients img {
+  max-width: 100px;
+ }
+
+ #partnersclients .client-two img {
+  max-width: 120px;
+ }
+
+ #partnersclients .client-two {
+  margin-left: -10px;
+  margin-right: 15px;
+ }
+
+
+}
+
+
+/* MEDIA QUERIES FOR 320PX */
+
+
+
+/* MEDIA QUERIES FOR 480PX */
+
+@media(max-width: 480px){
+
+  body {
+    overflow-x: hidden;
+  } 
+
+  /*nav*/
+
+  .navbar {
+    position: fixed;
+  } 
+
+  .navbar-brand img {
+    max-width: 182px;
+    max-height:45px;
+    margin-top: -2px; 
+  }
+
+  nav li a {
+    font-size: 10px;
+    text-align: center;
+  }
+
+  #home-services h1 {
+    font-size: 3em;
+    margin-top: 5px;
+  }
+  
+  #home-services p {
+    font-size: 1.3em;
+    font-family: 'Oswald', sans-serif;
+  }
+
+  #slideshow .slide__text-heading {
+    margin-top: 20%;
+  }
+
+  #solutions-main .row {
+    margin-left: 13%;
+  }
+  
+  #services-main h3 {
+    font-size: 16px;
+  }
+  
+  #services-main p {
+    font-family: 'Roboto Condensed';
+    font-size: 14px;
+    letter-spacing: -0.5px;
+  }
+
+  #home-about .row {
+    margin-left: 5%;
+    max-width: 350px;
+  }
+  
+  #home-projects h1 {
+    font-size: 3em;
+  }
+  
+  #home-projects p {
+    font-size: 1.3em;
+  }
+
+  #solutions-main .row {
+    margin-left: 13% !important; 
+  }
+
+  #services-main a:after {
+    display: inline-block;
+    color: white;
+
+  }
+  
+  #solutions-main img {
+    margin-bottom: 20px !important;
+    margin-top: 20px !important;
+  }
+
+  #partners .container {
+    margin: auto 50px;
+  }
+
+  #partnersclients .digital img {
+    max-width: 130px;
+    margin-top: 30px;
+  }
+
+  #partnersclients .client-two img {
+    margin: auto 5px;
+  }
+
+  #partnersclients .client-two .metrobank img {
+    margin-top: 15px;
+  }
+
+  /* end of main*/
+
+  #about-us-header {
+    margin-top: -20px !important;
+  }
+
+  #projects-header h1 {
+    font-size: 3em !important;
+  }
+
+  #about-us-header h1 {
+    font-size: 4em !important;
+  }
+
+  #community h1 {
+    font-size: 4em !important;
+  }
+
+  #projects-header p, 
+  #about-us-header p,
+  #services-header p{
+    font-size: 1.5em !important;
+  }
+
+  #projects-content .banking,
+  #projects-content .medical  {
+    padding-bottom: 0.6em !important;
+  }
+
+  #projects-content .banking img,
+  #projects-content .government img,
+  #projects-content .medical img  {
+    max-width: 20% !important;
+  }
+
+  #about-us-mission-and-vision .mission img {
+    max-height: 150px;
+    margin: 0 auto;
+  }
+
+  #about-us-mission-and-vision .mission h1 {
+    margin-left: 75px;
+  
+  }
+
+  #about-us-mission-and-vision .mission p {
+    text-align: justify;
+    margin-left: -20px;
+  
+  }
+
+  #about-us-mission-and-vision .vision h1 {
+    margin-left: 100px;
+  }
+
+  #about-us-mission-and-vision .vision p {
+    margin-left: -25px;
+  }
+
+  #about-us-mission-and-vision .values h1 {
+    margin-right: 40px;
+  }
+
+  #about-us-mission-and-vision .vision img {
+    max-height: 80px;
+    padding-left: 80px;
+  }
+
+  #about-us-mission-and-vision .values {
+    text-align: center;
+  }
+  #about-us-mission-and-vision .values p {
+    margin-left: -25px;
+    text-align: left;
+  }
+
+  #about-us-mission-and-vision .values img {
+    max-height: 100px;
+    margin: 0 auto !important;
+  }
+
+  #guiding-principle {
+    text-align: center;
+  }
+
+  #guiding-principle h2 {
+    margin-left: -10px !important;
+    font-size: 100px;
+  }
+
+  #affiliates .main-logo img {
+    max-width: 250px !important;
+  }
+
+  #affiliates .col-xs-4 img {
+    max-width: 130px !important;
+  }
+
+  /* end of about- us */
+
+  #services-contents {
+    padding-bottom: 30px;
+  }
+
+  #services-header h1 {
+    font-size: 4em !important;
+  }
+
+  #services-contents img {
+    max-width: 120px;
+    max-height: 150px !important;
+    margin-top: 10px !important;
+  }
+
+  #services-contents .services-two p {
+    max-width: 350px;
+    margin-bottom: 30px;
+  }
+
+
+  /* end of services */
+
+ #footer {
+    text-align: center;
+  }
+
+  #footer img {
+    max-width: 200px;
+    margin: 0 auto;
+  }
+
+  #footer h4 {
+    margin-right: 3%;
+    text-align: center;
+  }
+ 
+
+}
+/* MEDIA QUERIES FOR 480PX */
+
+
+
+/* MEDIA QUERIES FOR 767PX */
+
+@media(max-width: 767px) {
+
+  .navbar-brand img {
+    max-width: 200px;
+    margin-top: -14px;
+  }
+
+  nav li a {
+    padding-top: 13px !important;
+    padding-bottom: 13px !important;
+    text-align: center;
+  }
+
+  #home-about .row {
+    margin-left: 10%;
+  }
+
+  #slideshow .slide__text-heading {
+    margin-top: 10%;
+  }
+
+  #solutions-main .row {
+    margin-left: 28%;
+  }
+
+  #partners .ProductBlock img {
+    max-width: 160px;
+  }
+
+  #projects-header h1,
+  #about-us-header h1 {
+    font-size: 4em;
+  }
+
+  #about-us-mission-and-vision .mission img {
+    max-height: 150px;
+  }
+
+  #about-us-mission-and-vision .vision img {
+    max-height: 100px;
+    margin-left: 45px !important;
+  }
+
+  #about-us-mission-and-vision .values img {
+    max-height: 150px;
+    margin-left: 20px;
+  }
+
+  #guiding-principle h1 {
+    margin-left: 15px;
+  }
+
+  #guiding-principle h2 {
+    font-size: 160px;
+    margin-left: 30px;
+  }
+
+  #guiding-principle p {
+    margin-left: 30px;
+  }
+
+  #affiliates .main-logo img {
+    max-width: 350px;
+  }
+
+  #affiliates .col-xs-4 img {
+    max-width: 220px;
+  }
+
+  #services-contents .services-two p {
+    max-width: 350px;
+    padding-bottom: 20px;
+  }
+
+  #projects-header p {
+    font-size: 1.6em !important;
+  }
+
+  #footer {
+    text-align: center;
+  }
+
+  #footer img{
+    margin: 0 auto;
+  }
+
+  #footer h4 {
+    text-align: center;
+    margin-right: 0%;
+  }
+
+
+
+}     
+
+/* MEDIA QUERIES FOR 767PX */
+
+
+
+/* MEDIA QUERIES FOR 768PX - 979PX */
+
+@media (min-width: 768px) and (max-width: 979px) {
+
+  .navbar-brand {
+    max-width: 200px;
+    margin-top: 5px;
+  }
+
+  #home-about .row {
+    margin-left: 10%;
+  }
+
+  #slideshow .slide__text-heading {
+    margin-top: 10%;
+  }
+
+  #solutions-main .row {
+    margin-left: 28%;
+  }
+
+  #partners .ProductBlock img {
+    max-width: 160px;
+  }
+
+  #projects-header h1 {
+    font-size: 4.3em !important;
+  }
+
+   #about-us-header p {
+    font-size: 1.6em !important;
+  }
+
+  #about-us-mission-and-vision h1 {
+    font-size: 4.3em !important;
+  }
+
+  #community h1 {
+    font-size: 4.3em !important;
+  }
+
+  #community p {
+    font-size: 1.6em !important;
+  }
+
+  #about-us-mission-and-vision .mission img {
+    max-height: 200px;
+  }
+
+  #about-us-mission-and-vision .vision img {
+    max-height: 100px;
+    margin-left: 40px !important;
+  }
+
+   #about-us-mission-and-vision .values img {
+    max-height: 100px;
+    margin-left: 40px !important;
+  }
+
+  #guiding-principle h2 {
+    font-size: 160px;
+    padding-left: 140px;
+  }
+
+  #commitments .last {
+    margin-top: 50px;
+  }
+
+  #affiliates .main-logo img {
+    max-width: 350px;
+  }
+
+  #affiliates .col-xs-4 img {
+    max-width: 220px;
+  }
+
+  #services-contents .services-two p {
+    padding-bottom: 20px;
+  }
+
+  #projects-header p {
+    font-size: 1.6em !important;
+  }
+
+  #projects-content .banking,
+  #projects-content .government,
+  #projects-content .medical {
+    padding-bottom: 2em !important;
+  }
+
+  #about-us-mission-and-vision .values img {
+    max-height: 150px !important;
+  }
+
+  #guiding-principle h2 {
+    margin-left: -110px !important;
+  }
+
+  #guiding-principle p {
+    margin-left: 30px !important;
+  }
+
+  #footer {
+    text-align: center;
+  }
+
+  #footer img{
+    margin: 0 auto;
+  }
+
+  #footer h4 {
+    text-align: center;
+    margin-right: 4%;
+  }
+
+}
+
+/* MEDIA QUERIES FOR 768PX - 979PX */
+
+
+/* MEDIA QUERIES FOR 1200 */
+
+@media(min-width: 1200px) {
+
+  #projects-content .government {
+    padding-bottom: 3.4em;
+  }
+
+  #projects-content .medical {
+    padding-bottom: 1.4em;
+  }
+
+  #slideshow .slide__text-heading {
+    margin-top: 25%;
+  }
+
+}
+
+/* MEDIA QUERIES FOR 1200PX */
+
+
+
+/* END MEDIA QUERIES*/

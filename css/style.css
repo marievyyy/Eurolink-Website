@@ -1,0 +1,713 @@
+
+body {
+  overflow-x: hidden;
+}
+
+
+/* NAVIGATION */
+
+.navbar { 
+  border: 0;
+  background-color: #fff;
+}
+
+.navbar-nav li a {
+  font-family: 'Oswald';
+  font-weight: 400;
+  font-size: 18px;
+  padding: 26px 15px;
+}
+
+.navbar-collapse::-webkit-scrollbar {
+  display: none;
+}
+
+.dropdown-menu li a {
+  font-size: 14px;
+  color: #838383;
+  background-color: #fff;
+  text-align: center;
+  padding: 12px 0;
+  display: block;
+}
+
+.dropdown-menu li a:hover {
+  background-color: #999;
+  color: #989898;
+}
+
+.navbar-default .navbar-nav li a:hover {
+  background-color: #e7e6e6;
+  color: #767676;
+  opacity: 0.9;
+}
+
+.navbar-brand img {
+  margin-top: -9px;
+}
+
+.navbar-toggle {
+  padding: 9px 5px;
+  margin: 9px 15px 8px 0;
+
+}
+
+/* END NAVIGATION */
+
+
+
+/* ABOUT US HEADER */
+
+#about-us-header {
+  background:url('../img/about-header.jpg')fixed;
+  width: 100%;
+  padding: 190px 0;
+}
+
+#about-us-header h1 {
+  font-style: bold;
+  font-family: 'Oswald', sans-serif;
+  font-size: 4.8em;
+  font-weight: 700;
+  letter-spacing: 3px;
+  color: #fff;
+}
+
+#about-us-header p {
+  padding-top: 2em;
+  font-size: 1.8em;
+  color: #fff;
+  
+}
+
+/* END ABOUT US HEADER */
+
+
+/* MISSION AND VISION */
+
+#about-us-mission-and-vision {
+  width: 100%;
+  padding-top: 150px;
+}
+
+#about-us-mission-and-vision h1 {
+  font-style: bold;
+  font-family: 'Oswald', sans-serif;
+  font-size: 4em;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+#about-us-mission-and-vision p {
+  font-size: 1.2em;
+  font-family: 'Roboto condensed';
+}
+
+#about-us-mission-and-vision .mission-detail,
+#about-us-mission-and-vision .values-detail  {
+  border-left: 3px solid #182f56;
+  padding-left: 50px;
+}
+
+#about-us-mission-and-vision .vision-detail {
+  border-right: 3px solid #182f56;
+  padding-left: 60px;
+}
+
+#about-us-mission-and-vision .mission img {
+  margin-top: 50px;
+}
+
+#about-us-mission-and-vision .vision img {
+  margin-top: 40px;
+  margin-left: 80px;
+}
+
+#about-us-mission-and-vision .values img {
+  margin-top: 130px;
+}
+
+#about-us-mission-and-vision .values span {
+  color: #006699;
+}
+
+#about-us-mission-and-vision .mission,
+#about-us-mission-and-vision .vision,
+#about-us-mission-and-vision .values  {
+  margin-bottom: 60px;
+}
+
+/* END MISSION AND VISION */
+
+
+/*  GUIDING PRICNCIPLE */
+
+#guiding-principle {
+  background:url('../img/guiding-principle.jpg')fixed;
+  padding-top: 90px;
+  padding-bottom: 95px; 
+  width: 100%;
+}
+
+#guiding-principle h1 {
+  font-style: bold;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.8em;
+  font-weight: 700;
+  letter-spacing: 3px;
+  margin-top: 60px;
+  color: white;
+}
+
+#guiding-principle h2  {
+  color: #e9e9e9;
+  font-family: 'Oswald';
+  font-size: 300px;
+  font-weight: 700;
+  margin-left: 80px;
+}
+  
+#guiding-principle p {
+  color: #fff;
+  font-family: 'Roboto condensed';
+  font-size: 20px;
+  font-weight: 500;
+  margin-left: -30px;
+}
+
+/*  GUIDING PRICNCIPLE */
+
+
+
+/* COMMITMENTS */
+
+
+#commitments { 
+  background:url('../img/commitment.jpg');
+  padding: 100px 0px;
+}
+
+#commitments h1 {
+  font-style: bold;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.8em;
+  font-weight: 700;
+  letter-spacing: 3px;
+  color: black;
+  margin-top: 50px;
+  color: #555;
+}
+  
+#commitments h4 {
+  font-family: 'Oswald';
+  color: #182f56;
+  font-size: 20px;
+  padding: 1em 0;
+}
+  
+  
+#commitments p  {
+  color: black;
+  font-family: 'Roboto condensed';
+  font-size: 16px;
+  text-align: justify;
+}
+
+
+/* COMMITMENTS */
+
+
+/* COMMUNITY */
+  
+#community {
+  background: url('../img/community.jpg') fixed;
+  width: 100%;
+  padding: 200px 0;
+}
+
+#community h1  { 
+  font-style: bold;
+  font-family: 'Oswald', sans-serif;
+  font-size: 4.8em;
+  font-weight: 700;
+  letter-spacing: 3px;
+  color: white;
+}  
+  
+#community h4{
+  padding-top: 2em;
+  font-size: 1.8em;
+  color: #fff;
+  font-family: 'Roboto condensed';
+}
+
+/* END OF COMMUNITY */
+
+
+
+/* AFFILIATES */
+
+#affiliates {
+  background: url('../img/community.jpg') fixed;
+  width: 100%;
+}
+
+#affiliates h1 {
+  font-style: bold;
+  font-family: 'Oswald', sans-serif;
+  font-size: 2.8em;
+  font-weight: 700;
+  letter-spacing: 3px;
+  color: white;
+}
+
+#affiliates .main {
+  margin-top: 30px;
+}
+
+#affiliates .last {
+  padding-bottom: 25px; 
+}
+
+/* AFFILIATES */
+
+
+/* SERVICES */
+
+
+#services-header {
+  background: url('../img/services-header.jpg') fixed;
+  width: 100%;
+  padding: 180px 0;
+}
+
+#services-header  h1 { 
+  font-style: bold;
+  font-family: 'Oswald', sans-serif;
+  font-size: 4.8em;
+  font-weight: 700;
+  letter-spacing: 3px;
+  color: #fff;
+}
+
+#services-contents   { 
+  background-color: white;
+  padding-top: 100px;
+  margin-bottom: 25px;
+}
+
+#services-header p  {
+  padding-top: 2em;
+  font-size: 1.8em;
+  color: #fff;
+}
+
+#services-contents img {
+  max-height: 115px;
+}
+
+#services-contents h3 {
+  font-family: 'Oswald';
+  font-size: 18px;
+  margin-bottom: 5px;
+}
+
+#services-contents .services-one p {
+  font-family: 'Roboto Condensed';
+  font-size: 14.5px;
+  max-width: 350px;
+}
+
+#services-contents .services-two p {
+  font-family: 'Roboto Condensed';
+  font-size: 14.5px;
+  max-width: 400px;
+}
+
+#services-contents .services-two {
+  margin-top: 15px;
+}
+
+/* SERVICES */
+
+
+
+/* SOLUTIONS */
+
+#solutions-header {
+  background: url('../img/solutions.jpg') fixed no-repeat;
+  width: 100%;
+  padding-top: 130px;
+  padding-bottom: 50px;
+}
+
+#solutions-header img {
+  max-width: 110px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+}
+
+#solutions-header .detail {
+  margin-left: -150px !important;
+  margin-right: -150px !important;
+  margin-top: 10px;
+}
+
+#solutions-header h1 {
+  font-family: 'Oswald';
+  color: #fff;
+  font-size: 2.8em;
+  font-weight: 400;
+  text-transform: uppercase;
+  letter-spacing: 0.8px;
+}
+
+#solutions-header h3 {
+  color: #fff;
+  font-family: 'Oswald';
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+#solutions-header p {
+  color: #fff;
+  font-family: 'Roboto Condensed';
+}
+
+#solutions-header .fa-credit-card {
+  font-size: 100px;
+  color: #fff;
+  margin-bottom: 20px;
+}
+
+#solutions-header .fa-users {
+  font-size: 110px;
+  color: #fff;
+  margin-bottom: 10px;
+}
+
+#solutions-header .fa-pencil-square-o,
+#solutions-header .fa-lock,
+#solutions-header .fa-mobile {
+  font-size: 120px;
+  color: #fff;
+}
+
+/* SOLUTIONS */
+
+
+
+/* PROJECTS HEADING */
+
+#projects-header {
+  background:url('../img/project-header.jpg')fixed;
+  width: 100%;
+  padding: 190px 0px 220px 0px;
+  
+}
+
+#projects-header h1 {
+  font-style: bold;
+  font-family: 'Oswald', sans-serif;
+  font-size: 4.8em;
+  font-weight: 700;
+  letter-spacing: 3px;
+  color: #fff; 
+}
+
+#projects-header p {
+  padding-top: 2em;
+  font-size: 1.8em;
+  color: #fff;
+}
+
+/* END PROJECTS HEADING */
+
+
+/* PROJECT LISTS */
+
+#projects-content {
+  background: url('../img/home-services.jpg') fixed;
+  width: 100%;
+  padding: 8% 0;
+}
+
+#projects-content .images {
+  padding-top: 30px;
+  padding-bottom: 5px;
+}
+
+#projects-content .details {
+  margin-top: 50px;
+}
+
+#projects-content h3 {
+  font-family: 'Oswald';
+  font-size: 17px;
+  margin-top: 30px;
+}
+
+#projects-content h3:hover {
+  color: #2d5ba8; 
+}
+
+#projects-content p {
+  letter-spacing: -0.5px;
+  margin-top: 10px;
+}
+
+#projects-content .div {
+  border-bottom: 2px solid black;
+  padding-bottom: 2px;
+  width: 40px;
+}
+
+
+
+/* END PROJECT LISTS */
+
+
+/* PARTNERS */    
+
+#partnersclients { 
+  background: url('../img/partnersclients.jpg') fixed;
+  width: 100%;
+  padding-top: 40px;
+  padding-bottom: 30px;
+}
+
+#partnersclients h3{
+  font-family: 'Oswald';
+  font-size: 50px;
+  font-weight: 400;
+  color: #fff;
+  overflow: hidden;
+  padding-top: 30px;
+  padding-bottom: 2%;
+}
+
+#partnersclients .partners p {
+  color: white;
+}
+
+#partnersclients  .partners img {
+  margin-top: 15px;
+}
+ 
+#partnersclients .clients p {
+  color: white;
+  margin-top: 5%;
+}
+
+#partnersclients .clients {
+  padding-top: 5%;
+  padding-bottom: 60px;
+}
+
+#partnersclients .clients h3 {
+  margin-bottom: -3%;
+  color: white;
+}
+
+#partnersclients .client-two {
+  margin: 20px 50px;
+}
+
+/* PARTNERS */  
+
+
+/* CONTACT US */
+
+#contact {
+  background:url('../img/home-services.jpg')fixed;
+  width: 100%;
+}
+
+.tab {
+  text-align: center;
+}
+  
+.tab ul {
+  display:inline-table; 
+}
+ 
+.tab li {
+  display:inline; 
+}
+
+.nav-pills > li.active > a, .nav-pills > li.active > a:focus {
+    color: white;
+    background-color: #032358;
+}
+
+
+
+/* CONTACT DETAILS */ 
+#contact-details {
+  padding-bottom: 80px;
+}
+
+#contact h4   { 
+  font-style: bold;
+  font-family: 'Oswald', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  color: black;
+  margin-bottom: 20px;
+  margin-top: 40px;
+  margin-left:auto;
+  margin-right: auto;
+  text-align:center;
+}
+  
+#contact h2 {
+  font-style: bold;
+  font-family: 'Oswald', sans-serif;
+  font-size: 32px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  color: black;
+  margin-top: 150px;
+  margin-bottom: 40px;
+  margin-left:auto;
+  margin-right: auto;
+  text-align:center;
+  text-transform: uppercase;
+}
+  
+#contact p {
+  font-family: 'Roboto condensed';
+  margin-left:auto;
+  margin-right: auto;
+  text-align:center;
+}
+
+#contact p.form   {
+  color: black;
+  font-family: 'Roboto condensed';
+  font-size: 16px;
+  text-align: left;
+  margin-left: 50px;
+}
+
+#contact p.contact {
+  font-style: bold;
+  font-family: 'Oswald', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  letter-spacing: 3px;
+  color: black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+  
+#contact-details a {
+  font-size: 1em;
+  color: #7f8a9c;
+}
+
+#contact-detail div {
+  margin-bottom: 70px;
+  font-family: 'Roboto condensed';
+  margin-top: 50px;
+}
+
+
+/* CONTACT DETAILS */
+
+/* INQUIRY FORM */
+
+textarea {
+  resize: none;
+
+}
+
+.form-label {
+  font-size: 12px;
+  color: #5e9bfc;
+  margin: 0;
+  display: block;
+  opacity: 1;
+  -webkit-transition: .333s ease top, .333s ease opacity;
+  transition: .333s ease top, .333s ease opacity;
+}
+.form-control {
+  border-radius: 0;
+  border-color: #ccc;
+    border-width: 0 0 2px 0;
+    border-style: none none solid none;
+    box-shadow: none;
+}
+.form-control:focus {
+  box-shadow: none;
+  border-color: #182f56;
+}
+.js-hide-label {
+  opacity: 0;   
+}
+.js-unhighlight-label {
+  color: #999; 
+}
+.btn-start-order {
+  background: 0 0 #ffffff;
+  border: 1px solid #182f56;
+  border-radius: 3px;
+  color: #2f323a;
+  font-family: "Oswald";
+  font-size: 16px;
+  line-height: inherit;
+  margin: 40px 0;
+  padding: 10px 50px;
+  text-transform: uppercase;
+  transition: all 0.25s ease 0s;
+}
+.btn-start-order:hover,.btn-start-order:active, .btn-start-order:focus {
+  border-color: #5e9bfc;
+  color: #5e9bfc;
+}
+
+/* INQUIRY FORM */
+
+
+/* CONTACT US */
+
+
+/* FOOTER */
+
+#footer {
+  background: url('../img/pattern.png');
+  padding: 2em;
+}
+
+#footer h4{
+  font-family: 'Calibri';
+  font-weight: 600;
+  letter-spacing: -0.3px;
+  color: #182f56;
+}
+
+#footer p {
+  font-size: 1em;
+  font-family: 'Calibri';
+  font-weight: 300;
+  color: #444;
+}
+
+#footer a {
+  font-size: 1em;
+  text-decoration: none;
+  color: #7f8a9c;
+  margin-top: -10px;
+
+}
+
+#footer a:hover {
+  color: #4b5a72;
+}
+
+
+/* END FOOTER */
+
+
+
