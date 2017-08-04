@@ -1,11 +1,7 @@
 # Eurolink-Website
-A company website developed during OJT
+A company website developed during OJT view here [*](https://marievyyy.github.io/Eurolink-Website/)
 ***
 * Created using Bootstrap. Also used PhotoshopCS6 for the initial layout and image/logo processing.
-
-* Slick by Ken Wheeler A jQuery responsive touch carousel
-
-* SmoothScroll v0.9.9
 
 ## Screenshots
 ![Home](https://user-images.githubusercontent.com/25134135/28240784-3368b18c-69ba-11e7-8115-80bd16dad67e.png)
