@@ -1,5 +1,5 @@
 # Eurolink-Website
-A company website developed during OJT view here [*](https://marievyyy.github.io/Eurolink-Website/)
+A company website developed during OJT view here [Eurolink](https://marievyyy.github.io/Eurolink-Website/)
 ***
 * Created using Bootstrap. Also used PhotoshopCS6 for the initial layout and image/logo processing.
 
